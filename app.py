@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 from engine import NewsAgent
 
 app = Flask(__name__)
-AGENT = NewsAgent(api_key="AIzaSyDiTplPgMUFJF7JIfSkJejYehlDT6KVkGI")
+AGENT = NewsAgent(api_key="")
 
 @app.route('/')
 def index():
